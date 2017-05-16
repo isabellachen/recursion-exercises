@@ -1,12 +1,13 @@
 function formula () {
 	let accumulator = 1
+  //let memo = []
   let findExp = function (n, e) {
   	if (e === 1) {
     	accumulator = accumulator * n
       return accumulator
     } else {
     	accumulator = accumulator * n
-      console.log(accumulator)
+      //memo.push(accumulator)
       findExp(n, e-1)
     	return accumulator
     }
