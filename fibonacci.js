@@ -4,8 +4,8 @@ function formula01 (memo) {
     	return memo
     } else {
     	memo = fib(n-1) //each iteration returns the memo array
-      memo.push(memo[memo.length-1] + memo[memo.length-2])//push next value into array
-      return memo
+ 	memo.push(memo[memo.length-1] + memo[memo.length-2])//push next value into array
+ 	return memo
     }
   }
   return fib
@@ -22,9 +22,9 @@ function formula02 () {
     	return memo
     }else{
     	memo = fib(n-1)
-      memo.push(memo[memo.length - 1] + memo[memo.length - 2])
-      console.log(n)
-      console.log(memo)
+ 	memo.push(memo[memo.length - 1] + memo[memo.length - 2])
+ 	console.log(n)
+  	console.log(memo)
     	return memo
     }
   }
