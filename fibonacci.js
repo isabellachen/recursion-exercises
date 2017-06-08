@@ -1,5 +1,5 @@
 function formula01 (memo) {
-	let fib = function (n) {
+let fib = function (n) {
   	if (n === 1) {
     	return memo
     } else {
